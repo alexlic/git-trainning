@@ -1,56 +1,56 @@
-# git-trainning
+# Git-trainning
 
-*Change branch*
+**Change branch**
 ```console
  $ git checkout <branch-name>
 ```
 
-*Create branch*
+**Create branch**
 ```console
 $ git checkout -b <branch_name>
 ```
 
-*Check Status of your branch*
+**Check Status of your branch**
 ```console
 $ git status
 ```
 
-*Add diles to HEAD*
+**Add files to HEAD**
 ```console
 $ git add <files>
 ```
 
-*Commit changes*
+**Commit changes**
 ```console
 $ git commit -m "messagge"
 ```
 
-*Pull from remote repo*
+**Pull from remote repo**
 ```console
 $ git pull origin <branch_name>
 ```
 
-*Push to remote repo*
+**Push to remote repo**
 ```console
 $ git pull origin <branch_name>
 ```
 
-*Delete local branch*
+**Delete local branch**
 ```console
 $ git branch -D <branch_name>
 ```
 
-*Delete remote branch*
+**Delete remote branch**
 ```console
-$ git push origin --delte <branch_name>
+$ git push origin --delete <branch_name>
 ```
 
-*Merge locally*
+**Merge locally**
 ```console
 $ git merge <name of branch to be merged into your current branch>
 ```
 
-*Fetch updates*
+**Fetch updates**
 ```console
 $ git fetch
 ```
