@@ -11,3 +11,6 @@ module.exports.res = function (number1, number2) {
 // multiplicacion
 
 // division
+module.exports.div = function (number1, number2) {
+  return number1 / number2
+}

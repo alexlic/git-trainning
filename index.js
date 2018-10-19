@@ -4,6 +4,7 @@ const sum = calculator.sum(5, 6)
 
 console.log(sum)
 
-const res = calculator.res(8, 4)
 
-console.log(res)
+const div = calculator.div(12, 6)
+
+console.log(div)
